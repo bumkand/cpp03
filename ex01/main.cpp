@@ -1,20 +1,17 @@
-#include "ClapTrap.hpp"
+#include "ScavTrap.hpp"
 
 int	main(void)
 {
-	ClapTrap	a("Woody");
-	ClapTrap	b("Buzz");
+	ScavTrap	a("Woody");
 
 	for (int i = 0; i < 10; i++)
 	{
 		a.attack("Johny");
-		a.beRepaired(5);
+		a.takeDamage(50);
+		a.beRepaired(30);
+		a.guardGate();
 	}
-	for (int i = 0; i < 10; i++)
-	{
-		a.attack("Johny");
-		a.takeDamage(10);
-	}
+
 
 
 	return 0;
