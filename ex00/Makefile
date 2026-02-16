@@ -1,4 +1,4 @@
-NAME = a.out
+NAME = ClapTrap
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98 -g
 CXX = c++
 

@@ -1,4 +1,4 @@
-NAME = a.out
+NAME = FragTrap
 CXXFLAGS = -Wall -Werror -Wextra -std=c++98 -g
 CXX = c++
 
