@@ -4,6 +4,9 @@ int	main(void)
 {
 	ClapTrap	a("Woody");
 	ClapTrap	b("Buzz");
+	ClapTrap c;
+
+	c.attack("sljkdf");
 
 	for (int i = 0; i < 10; i++)
 	{
